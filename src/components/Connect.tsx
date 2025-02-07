@@ -58,7 +58,9 @@ export function Connect() {
         {error && <div style={{ color: 'red', marginTop: '10px' }}>{error.message}</div>}
       </div>
       <div style={{ marginTop: '20px', textAlign: 'center' }}>
-        <img src="treasure-hunt.png" alt="Treasure Hunt" style={{ maxWidth: '100%', height: 'auto' }} />
+        <a href = "https://opensea.io/collection/tunada-mintnpass-base" target = "_self">
+          <img src="treasure-hunt.png" alt="Treasure Hunt" style={{ maxWidth: '100%', height: 'auto' }} />
+        </a>
       </div>
     </div>
   );
