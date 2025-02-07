@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src", // Chỉ định thư mục gốc cho các tệp TypeScript
+    "strict": false, // Bật các kiểm tra nghiêm ngặt
+    "moduleResolution": "node", // Đảm bảo các module được phân giải đúng
+    "esModuleInterop": true, // Hỗ trợ import/export giữa CommonJS và ESM
+    "sourceMap": false,
+    "jsx": "react-jsx"
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "./dist"] // Loại bỏ các tệp không cần thiết
+}

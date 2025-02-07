@@ -1,0 +1,16 @@
+{
+  "short_name": "WAGMI",
+  "name": "TUNADA NFT MINT&PASS",
+  "description": "We are excited to introduce TUNADA Token, a revolutionary token designed to support the aquarium hobbyist community and unite fish enthusiasts from all around the world, including lovers of tuna, ornamental fish and the large fish.",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
